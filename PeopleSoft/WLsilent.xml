@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Silent installer option: -mode=silent -silent_xml=F:\path\to\silent.xml -->
+   <bea-installer> 
+     <input-fields>
+       <data-value name="BEAHOME" value="F:\Oracle\Middleware" />
+       <data-value name="WLS_INSTALL_DIR" value="F:\Oracle\Middleware\wlserver_10.3" />
+       <data-value name="COMPONENT_PATHS" value="WebLogic Server" />
+	   <data-value name="INSTALL_NODE_MANAGER_SERVICE" value="no" />
+       <data-value name="INSTALL_SHORTCUT_IN_ALL_USERS_FOLDER" value="yes"/>
+	   <data-value name="LOCAL_JVMS" value="F:\Java"/>
+     </input-fields> 
+   </bea-installer>
